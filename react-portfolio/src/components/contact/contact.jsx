@@ -28,7 +28,17 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="c-right"></div>
+                <div className="c-right">
+                    <p className="c-desc">
+                        <b>What's your story?</b> Get in touch. Always 
+                        freelancing if the right project comes along.
+                    </p>
+                    <form>
+                        <input type="text" placeholder="Name" name="user_name" />
+                        <input type="text" placeholder="Subject" name="user_subject" />
+                        <input type="text" placeholder="Email" name="user_email" />
+                    </form>
+                </div>
             </div>
         </div>
     )
