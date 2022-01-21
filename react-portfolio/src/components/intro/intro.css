@@ -94,3 +94,34 @@
     right: 0;
 
 }
+
+
+@media screen and (max-width: 480px) {
+    .i{
+        flex-direction: column;
+    }
+
+    .i-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .i-title-wrapper{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .i-title-item{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .i-desc{
+        display: none;
+    }
+}
